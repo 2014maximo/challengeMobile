@@ -1,0 +1,7 @@
+{
+  "name": "chanllengemobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
