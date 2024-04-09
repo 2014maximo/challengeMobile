@@ -2,8 +2,8 @@ import { CommonModule } from '@angular/common';
 import { Component, inject } from '@angular/core';
 import { RefresherCustomEvent, IonHeader, IonToolbar, IonTitle, IonContent, IonRefresher, IonRefresherContent, IonList } from '@ionic/angular/standalone';
 
-import { HeroesService } from '../core/services/heroes.service';
-import { HeroesListComponent } from '../heroes/heroes-list/heroes-list.component';
+import { HeroesService } from '../../core/services/heroes.service';
+import { HeroesListComponent } from '../heroes-list/heroes-list.component';
 
 import { Device } from '@capacitor/device';
 import { ES } from 'src/assets/i18n/es';
