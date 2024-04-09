@@ -26,5 +26,9 @@
 #### Abrir en android studio para emular
 >npx cap open android
 
+#### Elements run
+*Angular CLI: 17.3.3        
+Node: 20.10.0
+Ionic: 7.1.1*
 
 
