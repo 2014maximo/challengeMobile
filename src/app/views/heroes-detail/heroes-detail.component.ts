@@ -45,7 +45,7 @@ export class HeroesDetailComponent  {
       next:(resp:RootObject) => {
         this.hero = resp.data.results[0];
         this.img = resp.data.results[0].thumbnail.path.includes('not_available')? '': resp.data.results[0].thumbnail.path;
-        console.log(resp, 'HERO');
+        console.log(resp, 'HEROBYID');
       }
     });
   }

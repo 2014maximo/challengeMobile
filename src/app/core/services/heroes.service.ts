@@ -17,6 +17,6 @@ export class HeroesService {
     return this.http.get<Heroes>(`${environment.urlBase}?apikey=${environment.publicKey}`);
   }
   getHeroesById(id:string): Observable<RootObject> {
-    return this.http.get<RootObject>(`${environment.urlBase}${id}?apikey=${environment.publicKey}`);
+    return this.http.get<RootObject>(`${environment.urlBase}/${id}?apikey=${environment.publicKey}`);
   }
 }

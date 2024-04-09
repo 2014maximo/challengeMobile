@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  urlBase:"https://gateway.marvel.com:443/v1/public/characters/",
+  urlBase:"https://gateway.marvel.com:443/v1/public/characters",
   publicKey:"b87e31a5229897615d6821977df81e41"
 };
 
